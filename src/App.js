@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Shiva name = "Shiva Shiva"/>
+      <Shiva name = "Shiva Sharma"/>
     </div>
   );
 }
