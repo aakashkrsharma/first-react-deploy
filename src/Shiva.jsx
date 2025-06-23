@@ -6,7 +6,7 @@ export default function Akash({ name }) {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:8080/api/message")
+        fetch("https://first-deploy-dwpq.onrender.com/api/message")
             .then(response => {
                 if (!response.ok) {
                     console.log('bad response', response)
